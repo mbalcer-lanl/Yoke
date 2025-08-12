@@ -16,7 +16,8 @@ authors = [
     {name = "Chakrabarti, Sharmistha", email = "schakrabarti@lanl.gov"},
     {name = "Armstrong, Derek", email = "dearmstr@lanl.gov"},
     {name = "Henrick, Andrew", email = "ahenrick@lanl.gov"},
-    {name = "Schodt, David", email = "dschodt@lanl.gov"}
+    {name = "Schodt, David", email = "dschodt@lanl.gov"},
+    {name = "Balcer, Matthew", email = "mbalcer@lanl.gov"}
 ]
 # NOTE: The PyTorch package through `conda` is `pytorch`, through
 # `pip` (and therefore `flit`) it is `torch`. Since `yoke` primarily
@@ -38,7 +39,9 @@ dependencies = [
     "lightning",
     "sphinx",
     "coverage",
-    "furo"
+    "furo",
+    "onnx",
+    "onnxruntime"
     ]
 requires-python = ">=3.9"
 readme = "README.md"
